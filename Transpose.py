@@ -27,9 +27,9 @@ class grey:
 
 
 if __name__ == '__main__':
-    imgPath = r'F:\learnproject\信管2班'
-    width = 180
-    height = 240
-    movePath = r'F:\learnproject\tow\wanc'
+    imgPath = r'这里放图片文件夹路径'
+    width = 180 #需要转换的像素
+    height = 240  #需要转换的像素
+    movePath = r'图片转换完成后自动移动到此文件夹'
 
     grey(imgPath, width, height, movePath)
